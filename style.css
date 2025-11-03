@@ -12,16 +12,16 @@ html {
 body {
   min-width: 500px;
   margin: auto;
-  background-color: #f3f7f8;
+  background-color: #b8c1ec;
 }
 
 header, footer{
   text-align: center;
   min-width: 500px;
   height: 50px;
-  padding: 15px 0 30px 0;
-  background-color: #025159;
-  color: #FFFFFF;
+  padding: 50px 0 50px 0;
+  background-color:#121629;
+  color: #bababa;
 }
 
 .navLogo {
@@ -33,15 +33,23 @@ header, footer{
   font-style: normal;
 }
 
+.favorite {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 900px;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
 footer p {
   font-size: .8rem;
 }
 
 img {
-  width: 100%;
-  height: auto;
+  width: 75%;
+  height: 50%;
 }
 
-.bear {
+.image {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
