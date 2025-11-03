@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  min-width: 500px;
+  min-width: 600px;
   margin: auto;
   background-color: #b8c1ec;
 }
@@ -49,8 +49,8 @@ h1, h2 {
 
 .favorites {
   display: grid;
-  grid-template-columns: repeat(2, 340px);
-  grid-auto-rows: 725px;
+  grid-template-columns: repeat(2, 390px);
+  grid-auto-rows: 775px;
   gap: 1.25rem;
   padding: 2rem;
   justify-content: center;
@@ -87,12 +87,12 @@ h2 {
 
 .source {
   padding: 15px 0;
-  font-size: 1.2rem; 
+  font-size: 0.9rem; 
 }
 
 .use {
   padding: 15px 0 ;
   border-top: 2px solid #232946;
-  font-size: 0.9rem; 
+  font-size: 1.2rem; 
 }
 
